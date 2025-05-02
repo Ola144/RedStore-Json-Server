@@ -7,11 +7,13 @@
   ],
   "license": "ISC",
   "author": "Fortunate",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
   },
   "dependencies": {
+    "nodemon": "^3.1.10",
     "json-server": "^0.16.2"
   }
 }

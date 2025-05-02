@@ -5,25 +5,13 @@
   "keywords": [
     "RedStore"
   ],
-  "homepage": "https://github.com/Ola144/RedStore-Json-Server#readme",
-  "bugs": {
-    "url": "https://github.com/Ola144/RedStore-Json-Server/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ola144/RedStore-Json-Server.git"
-  },
   "license": "ISC",
   "author": "Fortunate",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm install; npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "nodemon": "^3.1.10",
     "json-server": "^0.16.2"
   }
 }
